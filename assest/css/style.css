@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   margin: 8px;
+
+}
+main{
+    display: flex;
+   justify-content:space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(53, 202, 158);
+}
+h1{
+    font-size: 40px ;
+    color: white;
+    background-color: rgb(38, 36, 36);
+    text-align: center;
+    padding: 20px 0px;
+}
+h2 {
+font-size: 25px;
+
+
+}
+#search {
+    font-size: 25px;
+    padding: 10px;
+
+    
+}
+.btn{font-size: 30px;}
+
+#mainArea{
+   
+    column-count: 2;
+}
+.card {
+    display:inline-flexbox
+    justify-content: space-evenly;
+    
+    padding: 20px;
+    font-size: 2vmax;
+    border: 1px solid blue;
+    margin:15px 50px;
+    background-color: rgb(97, 107, 97);
+    
+}
+.card1 {
+    display:block;
+    justify-content: left;
+    padding: 20px;
+    font-size: 4vmax;
+    border: 1px solid blue;
+    margin:15px 50px;
+    
+    
+}
+.nextdays{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
