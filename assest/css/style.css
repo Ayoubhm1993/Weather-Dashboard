@@ -63,4 +63,6 @@ font-size: 25px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+#displayweather{
+    background-color: rgba(101, 197, 101, 0.357);
+}
